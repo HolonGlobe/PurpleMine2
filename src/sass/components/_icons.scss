@@ -148,6 +148,10 @@ $icon-map: (
   /* "redminecrm" icon kept for backwards compatibility */
   icon-redminecrm-money:        $fa-var-money,
   icon-redmineup-money:         $fa-var-money,
+  icon-expense:       			    $fa-var-money,
+  icon-operation:       		    $fa-var-money,
+  icon-add-payment:			      	$fa-var-money,
+  
 );
 
 @keyframes spin {
