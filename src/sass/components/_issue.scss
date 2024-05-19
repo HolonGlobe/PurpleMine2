@@ -443,6 +443,19 @@ div.thumbnails {
     margin-bottom: $line-height-computed + 2px * 2;
   }
 
+  .time_entry {
+    .note {
+      p {
+        padding: 15px 15px 5px;
+        border-top: 1px solid #d1d3e0;
+
+        &:empty {
+          display: none;
+        }
+      }
+    }
+  }
+
   &.hide-details {
     .journal,
     .details,
